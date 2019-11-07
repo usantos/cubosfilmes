@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Cubos Filmes</string>
+    <string name="base_url">https://api.themoviedb.org/3/</string>
+    <string name="api_key">eb46e1806b81aed633d9f8faaecf03ae</string>
+    <string name="text_search">Buscar</string>
+    <string name="generic_error">Oops! Não foi possível completar sua requisição....</string>
+    <string name="title_card">Uma seleção de filmes imperdiveis</string>
+    <string name="genres_header">Gêneros</string>
+    <string name="overview_header">Visão Geral</string>
+    <string name="duration_header">Duração</string>
+    <string name="language_header">Linguagem</string>
+
+    <plurals name="duration">
+        <item quantity="one">%d minuto</item>
+        <item quantity="other">%1$d minutos</item>
+    </plurals>
+</resources>
