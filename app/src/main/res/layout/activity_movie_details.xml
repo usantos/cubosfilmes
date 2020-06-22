@@ -19,19 +19,22 @@
     <TextView
         android:id="@+id/movie_title"
         android:textColor="@color/white"
-        android:textSize="@dimen/sp_16"
-        android:layout_marginStart="@dimen/dp_10"
+        android:textSize="@dimen/sp_20"
+        android:layout_marginStart="@dimen/dp_5"
         android:layout_marginTop="@dimen/dp_10"
+        android:padding="@dimen/dp_10"
         android:text=""
         app:layout_constraintTop_toBottomOf="@+id/movie_image"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <TextView
+        android:justificationMode="inter_word"
         android:id="@+id/movie_overview"
         android:textColor="@color/white"
         android:textSize="@dimen/sp_16"
-        android:layout_marginStart="@dimen/dp_10"
+        android:padding="@dimen/dp_10"
+        android:layout_marginStart="@dimen/dp_5"
         android:layout_marginTop="@dimen/dp_10"
         android:text=""
         app:layout_constraintTop_toBottomOf="@+id/movie_title"

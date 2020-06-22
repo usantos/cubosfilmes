@@ -25,9 +25,11 @@ class MovieDetailsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_movie_details)
 
+        supportActionBar?.setDisplayShowTitleEnabled(false)
+
         ButterKnife.bind(this)
 
-        var movieExtra = intent.getSerializableExtra("movie_extra") as Movie
+        val movieExtra = intent.getSerializableExtra("movie_extra") as Movie
 
         movieTitle.text = movieExtra.title
         movieOverview.text = movieExtra.overview
